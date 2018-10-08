@@ -6,11 +6,11 @@ define('BASE_DIRECTORY', PROJECT_DIRECTORY );
 require 'common/php/head.php';
 
 // CHANGE ME !
-$ID = 'kr_';
+$ID = 'kr_demo';
 
 KrConfig::init([
-  'client' => '',
-  'page_type' => '',
+  'client' => 'maje',
+  'page_type' => 'landing',
 ]);
 
 // SET THIS VARIABLE TO 'TRUE' TO BUST THE CACHE OF SCSS FILES
