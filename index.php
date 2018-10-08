@@ -6,7 +6,7 @@ define('BASE_DIRECTORY', PROJECT_DIRECTORY );
 require 'common/php/head.php';
 
 // CHANGE ME !
-$ID = 'kr_demo';
+$ID = 'kr_demo1';
 
 KrConfig::init([
   'client' => 'maje',
